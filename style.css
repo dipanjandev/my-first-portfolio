@@ -38,9 +38,11 @@ img {
     margin: auto;
 }
 
-header {
+/* Header Section Start */
 
-}
+/* header {
+
+} */
 
 nav {
     display: flex;
@@ -69,6 +71,7 @@ ul li a {
     text-decoration: none;
 }
 
+/* Header Section End */
 
 /* Hero Section Style */
 
@@ -109,3 +112,25 @@ ul li a {
     display: flex;
     gap: 20px;
 }
+
+/* About Me Section start */
+
+.about-me-parent {
+    background-color: #fff5ed;
+    margin: 70px auto;
+    border-radius: 10px;
+    padding: 50px;
+    text-align: center;
+    width: 900px;
+}
+
+.about-me-text-container p {
+    margin: 30px 0;
+}
+
+.about-box-parent {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* About me section end */
